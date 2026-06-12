@@ -70,7 +70,7 @@ const apps: NewShowcaseApp[] = [
       'Image-gen agent on Neon Functions',
       'Assets in Object Storage, tables in Postgres',
     ],
-    liveUrl: 'https://neon-image-studio.vercel.app/',
+    liveUrl: 'https://vibecast-studio.vercel.app',
     repoUrl: 'https://github.com/andrelandgraf/vibecast',
     screenshotKey: 'neon-image-studio.png',
     screenshotUrl: shot('neon-image-studio.png'),

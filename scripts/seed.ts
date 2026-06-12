@@ -28,7 +28,7 @@ const apps: NewShowcaseApp[] = [
       'LLM calls via Neon AI Gateway',
       'Ratings cached in Neon Postgres',
     ],
-    liveUrl: 'https://rate-my-pricing.vercel.app/',
+    liveUrl: 'https://ratemypricing.vercel.app/',
     repoUrl: 'https://github.com/andrelandgraf/rate-my-pricing',
     screenshotKey: 'rate-my-pricing.png',
     screenshotUrl: shot('rate-my-pricing.png'),

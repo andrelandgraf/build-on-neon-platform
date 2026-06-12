@@ -4,7 +4,7 @@ import { db } from "@/db/client";
 import { showcaseApps } from "@/db/schema";
 import { ShowcaseCard } from "@/components/showcase-card";
 import { NeonMark } from "@/components/neon-mark";
-import { GitHubIcon, BoltIcon } from "@/components/icons";
+import { GitHubIcon } from "@/components/icons";
 
 // Content lives in Postgres — read it fresh on every request.
 export const dynamic = "force-dynamic";
@@ -82,20 +82,6 @@ export default async function Home() {
                   {s}
                 </span>
               ))}
-            </div>
-
-            {/* meta-note: this page IS a Neon demo */}
-            <div className="float-in mx-auto mt-12 flex max-w-2xl items-start gap-3 rounded-xl border border-border bg-card px-4 py-3 text-left text-sm text-muted">
-              <BoltIcon className="mt-0.5 h-4 w-4 shrink-0 text-neon" />
-              <p>
-                Meta moment: this page is itself a Neon demo. Its content lives in{" "}
-                <span className="text-foreground">Neon Postgres</span> and the
-                screenshots stream from a{" "}
-                <span className="text-foreground">
-                  Neon Object Storage public bucket
-                </span>
-                , served straight from Vercel — no backend function in the loop.
-              </p>
             </div>
           </div>
         </section>

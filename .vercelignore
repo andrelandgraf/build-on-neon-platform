@@ -1,0 +1,6 @@
+.env*
+.neon
+node_modules
+.next
+drizzle
+*.tsbuildinfo

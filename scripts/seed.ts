@@ -71,7 +71,7 @@ const apps: NewShowcaseApp[] = [
       'Assets in Object Storage, tables in Postgres',
     ],
     liveUrl: 'https://neon-image-studio.vercel.app/',
-    repoUrl: 'https://github.com/andrelandgraf/castmate',
+    repoUrl: 'https://github.com/andrelandgraf/vibecast',
     screenshotKey: 'neon-image-studio.png',
     screenshotUrl: shot('neon-image-studio.png'),
     accent: 'cyan',

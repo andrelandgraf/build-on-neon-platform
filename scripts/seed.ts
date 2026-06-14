@@ -78,6 +78,27 @@ const apps: NewShowcaseApp[] = [
     featured: true,
     sortOrder: 3,
   },
+  {
+    slug: 'chat-with-neon',
+    name: 'Chat with Neon',
+    tagline: 'Realtime group chat with an @neon AI sidekick.',
+    description:
+      'A shared realtime chat: sign in, message everyone over WebSockets, attach images, and set a profile picture. A moderation agent screens every message, and tagging @neon summons an AI assistant that knows Neon (docs + agent skills) and replies right in the chat.',
+    services: ['Auth', 'Functions', 'Object Storage', 'AI Gateway', 'Postgres'],
+    stack: [
+      'Next.js frontend on Vercel (Neon Auth)',
+      'Realtime WebSocket server on Neon Functions',
+      'Moderation + @neon assistant agents via Neon AI Gateway',
+      'Messages in Postgres, images & avatars in Object Storage',
+    ],
+    liveUrl: 'https://chat-with-neon.vercel.app/',
+    repoUrl: 'https://github.com/andrelandgraf/chat-with-neon',
+    screenshotKey: 'chat-with-neon.png',
+    screenshotUrl: shot('chat-with-neon.png'),
+    accent: 'violet',
+    featured: true,
+    sortOrder: 4,
+  },
 ];
 
 async function main() {

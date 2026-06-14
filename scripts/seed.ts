@@ -34,7 +34,7 @@ const apps: NewShowcaseApp[] = [
     screenshotUrl: shot('rate-my-pricing.png'),
     accent: 'amber',
     featured: true,
-    sortOrder: 1,
+    sortOrder: 2,
   },
   {
     slug: 'branch-explorer',
@@ -55,11 +55,11 @@ const apps: NewShowcaseApp[] = [
     screenshotUrl: shot('branch-explorer.png'),
     accent: 'emerald',
     featured: true,
-    sortOrder: 2,
+    sortOrder: 4,
   },
   {
-    slug: 'neon-image-studio',
-    name: 'Neon Image Studio',
+    slug: 'vibecastly',
+    name: 'Vibecastly',
     tagline: 'Cast anyone into any scene.',
     description:
       'Upload photos of your teammates, @-mention them in a prompt, and an agent uses their faces as the starting point. Your whole team shares one collaborative gallery.',
@@ -97,7 +97,7 @@ const apps: NewShowcaseApp[] = [
     screenshotUrl: shot('chat-with-neon.png'),
     accent: 'violet',
     featured: true,
-    sortOrder: 4,
+    sortOrder: 1,
   },
 ];
 
